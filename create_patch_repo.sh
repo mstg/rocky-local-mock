@@ -9,3 +9,4 @@ fi
 mkdir -p "patch/$NAME.git/ROCKY/"{CFG,_supporting}
 cd "patch/$NAME.git"
 git init
+git checkout -b main
