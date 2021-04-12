@@ -12,5 +12,5 @@ fi
 
 cd "rpms/$NAME/$BRANCH"
 
-rpmbuild --define "_topdir `pwd`" -v -bs SPECS/abrt.spec
+rpmbuild --define "_topdir `pwd`" -v -bs "SPECS/$NAME.spec"
 mock SRPMS/*
